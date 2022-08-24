@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Ubuntu:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(68.15deg, #0E2A47 16.62%, #3A7CC3 85.61%);
+}
+
+.topo {
+    margin: 50px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topo-foto {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+#nome {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#cargo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.botao-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    border: none;
+}
+
+.github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: 2px solid #00c8ff;
+    border-radius: 20px;
+}
+
+.linkedin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: 2px solid #00c8ff;
+    border-radius: 20px;
+}
+
+.hacker-rank{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: 2px solid #00c8ff;
+    border-radius: 20px;
+}
+
+.flare{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: 2px solid #00c8ff;
+    border-radius: 20px;
+}
+
+.logos{
+    height: 28px;
+    margin: 0;
+}
